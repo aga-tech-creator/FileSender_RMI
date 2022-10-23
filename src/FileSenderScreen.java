@@ -158,11 +158,11 @@ public class FileSenderScreen {
     private void layoutAppConfig() {
         fChooser = new JFileChooser();
 
-        // Change the name "Cancel" to "Delete".
+        // Change the name "Cancel" to "Clear".
         UIManager.put("FileChooser.cancelButtonText", "Clear");
         SwingUtilities.updateComponentTreeUI(fChooser);
 
-        // Change the name "Send" to "Delete".
+        // Change the name "Open" to "Send".
         fChooser.setApproveButtonText("Send");
         fChooser.setBorder(BorderFactory.createLineBorder(Color.darkGray));
 
